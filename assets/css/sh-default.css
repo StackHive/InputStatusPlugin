@@ -1,0 +1,98 @@
+.control-label {
+    font-size: 18px;
+    color: gray
+}
+.status_btn {
+    position: absolute;
+    color: #333;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    opacity: .7;
+    top: 13px;
+    right: 20px;
+    font-size: 16px;
+    cursor: pointer
+}
+.status_btn:hover {
+    opacity: 1;
+    color: #333
+}
+.relative-container {
+    position: relative
+}
+.forkit {
+    background-color: #fff;
+    border-width: 1px;
+    border-style: none;
+    border-color: #357ebd;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    color: #1f1f1f;
+    outline: transparent solid 20px;
+    outline-offset: 0;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    position: relative;
+    top: 6px
+}
+.forkit:active,
+.forkit:active:focus,
+.forkit:focus,
+.forkit:hover {
+    background-color: #2b2b2b;
+    outline: #666 solid 2px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    outline-offset: 2px
+}
+.statusform input[type=text].form-control.with_status {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    padding-right: 25px;
+    height: 45px;
+    font-size: 17px
+}
+.plugin-heading {
+    background-color: #383838;
+    background-image: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-position: null;
+    -webkit-background-size: initial initial;
+    -o-background-size: initial;
+    background-size: initial;
+    -webkit-background-clip: initial;
+    -o-background-clip: initial;
+    background-clip: initial;
+    -webkit-background-origin: initial;
+    -o-background-origin: initial;
+    background-origin: initial;
+    margin-top: 0;
+    padding: 20px;
+    color: #fff;
+    -webkit-box-shadow: #2f2f2f 1px 1px 2px 0;
+    box-shadow: #2f2f2f 1px 1px 2px 0;
+    text-shadow: #252525 0 3px 2px
+}
+.centered {
+    text-align: center
+}
+.mb-20 {
+    margin-bottom: 20px
+}
+.notextshadow {
+    text-shadow: 0 0
+}
+body {
+    padding: 0
+}
+.formcontainer {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
